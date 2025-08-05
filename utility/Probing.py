@@ -9,9 +9,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.utils import shuffle
 from sklearn.pipeline import make_pipeline
 from sklearn.multiclass import OneVsRestClassifier
-from sklearn.metrics import (
-    balanced_accuracy_score, f1_score, cohen_kappa_score, roc_auc_score
-)
 import numpy as np
 from collections import Counter
 
@@ -114,6 +111,7 @@ def fit_lr(features, labels, seed=3407, max_samples=None):
     )
     pipe.fit(features, labels)
     return pipe
+
 
 def MLP_for_nonlinear_probe(train_feats, train_labels, val_feats, val_labels, test_feats, test_labels,
                             device, log_path, logger, num_classes=2, num_epochs=20, batch_size=64, lr=1e-3):

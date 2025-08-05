@@ -246,18 +246,4 @@ def fused_emotiv_loader(config):
                       sample_batch.shape[1], sample_batch.shape[2])
 
 
-def load_dataset(name):
-    path = os.path.join(root, name, f"{name}.npy")
-    data = np.load(path, allow_pickle=True).item()
-    x = data['X_train']
-    y = data['Y_train']
-
-    # Label encoding if y is string type
-    if y.dtype.kind in {'U', 'S', 'O'}:
-        y = label_encoder.fit_transform(y)
-
-    return TensorDataset(torch.tensor(x, dtype=torch.float32), torch.tensor(y, dtype=torch.long))
-
-
-
 

@@ -37,12 +37,12 @@ The figure below illustrates the **Spatial-Adaptive Input Embedding (SAIE)** mod
 <table align="center">
   <tr>
     <td align="center">
-      <img src="./Figures/Topo_gif/DriverDistraction_GIF.gif" alt="Driver Distraction" width="250"/><br/>
-      <b>Driver Distraction</b>
+        <img src="./Figures/Topo_gif/EyesState_GIF.gif" alt="Eyes State" width="250"/><br/>
+      <b>Eyes Close/Open</b>
     </td>
     <td align="center">
-      <img src="./Figures/Topo_gif/EyesState_GIF.gif" alt="Eyes State" width="250"/><br/>
-      <b>Eyes Close/Open</b>
+      <img src="./Figures/Topo_gif/DriverDistraction_GIF.gif" alt="Driver Distraction" width="250"/><br/>
+      <b>Driver Distraction</b>
     </td>
   </tr>
   <tr>
@@ -80,9 +80,8 @@ SAMBA/
 ├── Env-requirement/     # Environment configs with dated backups
 ├── Checkpoints/         # Pretrained SAMBA models (SAMBA-E, SAMBA-T)
 ├── Models/              # Model architecture implementations
-├── utility/             # Supporting functions: data loading, masking, evaluation
 ├── Experiments/         # PyTorch Lightning training modules
+├── utility/             # Supporting functions: data loading, masking, loss, evaluation
 ├── Figures/             # Diagrams and visualizations
 ├── Montage/             # EEG montage metadata for multiple devices
-├── Script/              # Helper scripts (e.g., preprocessing, evaluation)
 └── README.md            # Project overview
