@@ -70,14 +70,15 @@ The figure below illustrates the **Spatial-Adaptive Input Embedding (SAIE)** mod
 ---
 
 #### References
-<div style="font-size: smaller">
-
-[1] S. Hoffmann *et al.* The correction of eye blink artefacts in the EEG: a comparison of two prominent methods. *PLOS ONE*, 3(8):e3004, 2008.  
-[2] G. Li *et al.* Drivers’ EEG responses to different distraction tasks. *Auto. Innov.*, 6(1):20–31, 2023.  
-[3] G. Berretz *et al.* Acute stress increases left hemispheric activity measured via changes in frontal alpha asymmetries. *iScience*, 25(2), 2022.  
-[4] S. Lopez *et al.* Automated identification of abnormal adult EEGs. In *Proc. IEEE SPMB*, pp. 1–5, 2015.  
-[5] J. Hong *et al.* A deep learning framework based on dynamic channel selection for early classification of left and right hand motor imagery tasks. In *Proc. IEEE EMBC*, pp. 3550–3553, 2022.
-</div>
+<!-- <div style="font-size: smaller"> -->
+<sub>
+[1] S. Hoffmann et al. The correction of eye blink artefacts in the EEG: a comparison of two prominent methods. PLOS ONE, 3(8):e3004, 2008.  <br/>
+[2] G. Li et al. Drivers’ EEG responses to different distraction tasks. Auto. Innov., 6(1):20–31, 2023.  <br/>
+[3] G. Berretz et al. Acute stress increases left hemispheric activity measured via changes in frontal alpha asymmetries. iScience, 25(2), 2022.  <br/>
+[4] S. Lopez et al. Automated identification of abnormal adult EEGs. In Proc. IEEE SPMB, pp. 1–5, 2015.  <br/>
+[5] J. Hong et al. A deep learning framework based on dynamic channel selection for early classification of left and right hand motor imagery tasks. In Proc. IEEE EMBC, pp. 3550–3553, 2022.  <br/>
+</sub>
+<!-- </div> -->
 
 ## Model and Checkpoints
 
