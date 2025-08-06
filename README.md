@@ -21,7 +21,7 @@ We introduce **SAMBA**, a self-supervised learning framework featuring a U-shape
 
 Evaluations across **13 EEG datasets** covering a range of tasks, montages, and sequence lengths demonstrate that SAMBA consistently outperforms state-of-the-art baselines, while maintaining low memory usage and fast inference. In addition, the learned spatial weights exhibit strong alignment with task-relevant neurophysiological regions, suggesting that SAMBA is both **learnable** and **interpretable**.
 
-> 📌 The code is available at: https://github.com/anon1280/SAMBA
+<!-- > 📌 The code is available at: https://github.com/anon1280/SAMBA -->
 
 ---
 
@@ -67,7 +67,6 @@ The figure below illustrates the **Spatial-Adaptive Input Embedding (SAIE)** mod
     </td>
   </tr>
 </table>
----
 
 #### References
 <!-- <div style="font-size: smaller"> -->
